@@ -1,0 +1,39 @@
+{
+  "name": "posts-table-pro",
+  "version": "2.0.3",
+  "description": "Posts Table Pro WordPress plugin",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-checktextdomain": "^2.1.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-debug": "^4.0.0",
+    "gulp-header": "^2.0.5",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-replace": "^1.0.0",
+    "gulp-run": "^1.7.1",
+    "gulp-sftp": "^0.1.5",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "natives": "^1.1.4",
+    "pump": "^3.0.0"
+  },
+  "scripts": {
+    "test": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://barn2media@bitbucket.org/barn2media/posts-table-pro.git"
+  },
+  "keywords": [
+    "wordpress",
+    "table",
+    "plugin"
+  ],
+  "author": "Barn2 Media",
+  "license": "GPL-3.0",
+  "homepage": "https://bitbucket.org/barn2media/posts-table-pro#readme"
+}

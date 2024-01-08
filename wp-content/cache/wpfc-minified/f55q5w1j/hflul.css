@@ -1,0 +1,1351 @@
+:root {
+--main-color: #3a506b;
+--secondary-color: #bfeafb;
+--grigio: #f1f1f1;
+--grigio-scuro: #797979;
+}
+html {
+scroll-behavior: smooth;
+}
+a img {
+transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+a img:hover {
+opacity: 0.6;
+}
+.headline {
+padding-top: 0;
+}
+.headline-text {
+width: 100%;
+float: none;
+border-radius: 5px;
+font-weight: 800;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+flex-wrap: wrap;
+padding-right: 1rem;
+padding-left: 2rem;
+font-size: 80% !important;
+}
+.headline-text a:hover {
+text-decoration: underline;
+color: #ffffff !important;
+}
+.headline-element,
+.headline-text a {
+text-decoration: none;
+display: flex;
+align-items: center;
+color: #ffffff;
+margin: 0.4rem 0 0.4rem 1rem;
+}
+.headline-icon img {
+height: clamp(1rem, 1.8vw, 1.25rem);
+max-height: 1.25rem;
+width: auto;
+margin: 0;
+}
+.headline-element img {
+height: clamp(1rem, 1.8vw, 1.25rem);
+max-height: 1.25rem;
+width: auto;
+margin: 0 0.5rem 0 0;
+}
+h2,
+h5,
+.page-h1 {
+color: #3a506b;
+}
+.bg-color-main,
+.bg-color-slider {
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+box-shadow: none !important;
+}
+.blocks-same-height {
+height: 100%;
+}
+.blocks-same-height > div {
+height: 100%;
+}
+.contenitore-riquadro {
+width: 100%;
+min-height: 330px;
+display: flex;
+align-items: center;
+border-radius: 5px;
+overflow: hidden;
+justify-content: center;
+height: 100%;
+-moz-box-sizing: border-box;
+}
+.contenitore-riquadro.verticale {
+flex-direction: column;
+justify-content: center;
+}
+.contenitore-riquadro a > img {
+display: block;
+}
+.button,
+a.button {
+display: inline-block !important;
+border: 0 !important;
+line-height: 18px !important;
+padding: 8px 18px !important;
+margin: 12px 15px 7px 0 !important;
+-webkit-transition: none;
+-moz-transition: none;
+-ms-transition: none;
+-o-transition: none;
+transition: none;
+background-image: none !important;
+background-color: #3a506b !important;
+text-decoration: none !important;
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+box-shadow: none !important;
+font-size: 0.9rem;
+font-weight: 600 !important;
+text-shadow: none !important;
+-webkit-border-radius: 5px !important;
+-moz-border-radius: 5px !important;
+border-radius: 5px !important;
+color: #fff;
+}
+@media only screen and (min-width: 1420px) {
+.logo-image {
+display: flex;
+align-items: flex-end;
+}
+}
+@media only screen and (max-width: 1419px) and (min-width: 1260px) {
+.logo-image {
+display: flex;
+align-items: flex-end;
+}
+.logo-pane-inner {
+bottom: 12px !important;
+left: 12px !important;
+right: 12px !important;
+top: 12px !important;
+}
+.primary-menu.show-dropdown-symbol > li.menu-parent-item > a span:after {
+bottom: -13px !important;
+}
+.block-3 h2 {
+font-size: 22px;
+}
+.contenitore-riquadro {
+min-height: 280px;
+}
+.immagine-articolo-in-evidenza {
+height: 250px !important;
+}
+}
+@media only screen and (max-width: 1259px) and (min-width: 980px) {
+.logo-image {
+display: flex;
+align-items: flex-end;
+}
+.logo-pane.bg-color-menu,
+.primary-menu li.block-1 {
+height: 75px !important;
+font-size: 12px;
+}
+.primary-menu li a span {
+bottom: 9px !important;
+left: 9px !important;
+right: 9px !important;
+}
+.logo-pane-inner {
+bottom: 9px !important;
+left: 9px !important;
+right: 9px !important;
+top: 9px !important;
+}
+.primary-menu.show-dropdown-symbol > li.menu-parent-item > a span:after {
+bottom: -10px !important;
+}
+.block-3 h2 {
+font-size: 18px;
+}
+.block-3 h2 > img {
+height: auto;
+width: 48px;
+}
+.button,
+a.button {
+font-size: 0.7rem !important;
+padding: 4px 9px !important;
+}
+.referti-online a > img {
+height: 48px !important;
+width: 48px !important;
+}
+.referti-online a > div {
+font-size: 15px;
+}
+.immagine-riquadro {
+max-height: 75px !important;
+width: 75px !important;
+}
+.contenitore-riquadro {
+min-height: 230px;
+}
+.immagine-articolo-in-evidenza {
+height: 180px !important;
+}
+}
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+.logo-image {
+display: flex;
+align-items: flex-end;
+}
+.logo-pane.bg-color-menu,
+.primary-menu li.block-1 {
+height: 61px !important;
+font-size: 9px;
+}
+.primary-menu li a span {
+bottom: 9px !important;
+left: 9px !important;
+right: 9px !important;
+}
+.logo-pane-inner {
+bottom: 9px !important;
+left: 9px !important;
+right: 9px !important;
+top: 9px !important;
+}
+.primary-menu.show-dropdown-symbol > li.menu-parent-item > a span:after {
+bottom: -8px !important;
+}
+.block-3 h2 {
+font-size: 13px;
+}
+.block-3 h2 > img {
+height: auto;
+width: 32px;
+}
+.referti-online a > img {
+height: 48px !important;
+width: 48px !important;
+}
+.referti-online a > div {
+font-size: 13px;
+}
+.immagine-riquadro {
+max-height: 60px !important;
+width: 60px !important;
+}
+.contenitore-riquadro {
+min-height: 180px;
+}
+.immagine-articolo-in-evidenza {
+height: 150px !important;
+}
+}
+@media only screen and (max-width: 767px) {
+.headline-icon img,
+.headline-element img {
+height: 1.25rem;
+}
+.headline-text {
+font-size: 100% !important;
+}
+.logo-image {
+display: flex;
+align-items: center;
+}
+.logo-pane-inner {
+bottom: 0px !important;
+top: 0px !important;
+left: 5px !important;
+right: 5px !important;
+}
+.hide-mobile {
+display: none !important;
+}
+.logo-pane {
+height: 75px !important;
+}
+.block-3 > h2 {
+margin: 0;
+padding-top: 48px !important;
+}
+.block-3 h2 > img {
+height: auto;
+width: 48px;
+}
+.contenitore-riquadro {
+flex-direction: column;
+}
+.one-half {
+width: 100% !important;
+margin: 0.5rem 0 !important;
+}
+.contenitore-riquadro {
+min-height: 50px;
+}
+.referti-online {
+position: relative !important;
+}
+.pulsanti-informazioni {
+min-height: 250px !important;
+position: relative !important;
+}
+.immagine-articolo-in-evidenza {
+height: 250px !important;
+}
+}
+.logo-pane-inner {
+left: 18px;
+right: 18px;
+bottom: 18px;
+top: 0px;
+}
+.logo-image img {
+max-height: 76px !important;
+}
+.bg-overlay::before {
+content: "";
+position: absolute;
+min-height: 800px;
+height: 100%;
+width: 100%;
+background: url(//www.provinciaromanafbf.it/wp-content/themes/fbf-theme/img/sfondo.svg) center top/cover;
+background-repeat: no-repeat;
+z-index: -1;
+top: 0px;
+}
+.logo-pane.bg-color-menu,
+.primary-menu li.block-1 {
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+height: 100px;
+background-color: none;
+}
+.logo-pane.bg-color-menu,
+.primary-menu li {
+background-color: unset !important;
+}
+.primary-menu li a span {
+bottom: 18px;
+}
+.primary-menu.show-dropdown-symbol > li.menu-parent-item > a span:after {
+content: " \f107";
+font-family: "FontAwesome";
+position: absolute;
+bottom: -15px;
+left: 1px;
+}
+.sub-menu {
+border-radius: 5px;
+}
+.sub-menu > :first-child {
+border-radius: 0 5px 0 0;
+overflow: hidden;
+}
+.sub-menu > :last-child {
+border-radius: 0 0 5px 5px;
+overflow: hidden;
+}
+.primary-menu > .menu-item,
+.primary-menu > .menu-item > a {
+border-radius: 5px;
+}
+.big-slider-slide {
+border-radius: 5px;
+overflow: hidden;
+}
+.big-slider-control,
+.block-full,
+.block-2,
+.block-3,
+.block-4,
+.block-5,
+.block-6,
+.block-9 {
+border-radius: 5px;
+}
+.homepage-blocks .block-inner {
+padding: 1.5rem 2rem;
+}
+.footer { border-radius: 5px 5px 0 0;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+position: relative;
+margin-bottom: 70px !important;
+}
+.footer::after { position: absolute;
+min-height: 60px;
+display: block;
+width: 100%;
+content: "";
+background: url(//www.provinciaromanafbf.it/wp-content/themes/fbf-theme/img/onda-footer.svg) no-repeat;
+background-position: top;
+background-size: cover;
+transform: scale(-1, -1);
+}
+.footer .block-3 > div {
+padding: 2rem 3rem;
+}
+.sub-footer.block-full {
+margin: 6px 6px 0 6px;
+}
+.sub-footer .block-full {
+padding: 0 1rem;
+}
+.one-half {
+margin: 0.5rem;
+box-sizing: content-box;
+}
+.one-half a {
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-items: center;
+width: 100%;
+}
+.one-half > p,
+.one-half a > p {
+display: none;
+}
+.one-half h5 {
+margin-top: 0.5rem !important;
+}
+.contenitore-scarica-app {
+display: flex;
+flex-direction: row;
+}
+@media only screen and (max-width: 767px) {
+.contenitore-scarica-app {
+flex-direction: column;
+}
+}
+.contenitore-scarica-app a {
+width: 150px;
+margin-right: 0.5rem;
+}
+.immagine-riquadro {
+max-height: 128px;
+width: 128px;
+}
+.pulsanti-informazioni {
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: 100%;
+top: 0px;
+min-height: 456px;
+position: absolute;
+} .content-without-sidebar {
+border-radius: 5px;
+}
+.widget-header {
+border-radius: 5px 5px 0px 0px;
+}
+footer #searchform > input:focus {
+background-color: #bfeafb;
+}
+footer #searchform > input {
+background-color: #ffffff;
+font-weight: 800;
+border-radius: 5px;
+width: 80%;
+-moz-transition: all 0.5s ease-in;
+-webkit-transition: all 0.5s ease-in;
+-o-transition: all 0.5s ease-in;
+transition: all 0.5s ease-in;
+}
+body {
+background: linear-gradient(#e8f4fd, #99d3eb);
+height: 100vh;
+}
+.vita-ospedaliera {
+box-sizing: content-box;
+padding: 1.5rem 2rem;
+}
+.titolo-vita-ospedaliera {
+color: #3a506b;
+}
+.contenitore-vita-ospedaliera {
+display: flex;
+align-items: flex-end;
+}
+.copertina-vita-ospedaliera {
+transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+padding: 0 1rem 0 0;
+flex: 5;
+}
+.riquadro-periodo-rivista {
+flex: 2;
+padding: 0 0 0 1rem;
+border-left: 1px solid #3a506b;
+}
+@media only screen and (max-width: 1419px) and (min-width: 1260px) {
+.vita-ospedaliera {
+padding: 1.5rem 2.5rem;
+}
+.periodo-rivista a {
+font-size: 0.7rem;
+}
+}
+@media only screen and (max-width: 1259px) and (min-width: 980px) {
+.vita-ospedaliera {
+padding: 1.5rem 2rem;
+}
+.periodo-rivista a {
+font-size: 0.7rem;
+}
+}
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+.vita-ospedaliera {
+padding: 0.4rem 0.75rem;
+}
+.periodo-rivista a {
+font-size: 0.6rem;
+}
+}
+@media only screen and (max-width: 767px) { .vita-ospedaliera {
+box-sizing: content-box;
+height: 100%;
+padding: 1.5rem 2rem;
+}
+}
+.periodo-rivista {
+font-size: 12px;
+font-weight: 800;
+} .post-attivita-ospedaliera {
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+}
+.dettaglio-attivita-ospedaliera {
+flex: 2;
+width: 100%;
+}
+.elenco-reparti {
+flex: 1;
+top: 169px;
+background: #f1f1f1;
+border-radius: 5px;
+margin: 0 1rem;
+padding-bottom: 2rem;
+}
+.attivita-ospedaliera {
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+}
+.elemento-attivita-ospedaliera {
+display: flex;
+padding: 2rem 1.5rem;
+box-sizing: border-box;
+}
+.icona-attivita-ospedaliera {
+display: inline-flex;
+margin: 0 1rem 0 0;
+}
+.icona-attivita-ospedaliera img {
+height: 50px;
+margin: 0;
+min-width: 50px;
+}
+.contenuto-elemento {
+margin: 0rem 0rem;
+width: 100%;
+}
+.titolo-contenuto-elemento {
+color: #3a506b;
+flex: 1;
+font-style: italic;
+font-weight: 600;
+line-height: 18px;
+margin-top: -5px;
+}
+.riga-elemento {
+line-height: 20px;
+display: block;
+}
+.nome-responsabile > div {
+float: left;
+margin-right: 0.5rem;
+}
+.nome-responsabile a {
+color: #bfeafb;
+float: right;
+margin: 0 0.25rem;
+}
+.nome-responsabile a:hover {
+color: white;
+text-decoration: none;
+}
+.curriculum_responsabile {
+background-color: #3a506b;
+border-radius: 5px;
+color: white;
+font-size: 0.6rem;
+font-weight: 600;
+padding: 0rem 0.5rem;
+height: 16px;
+line-height: 16px;
+margin-top: 2px;
+}
+.medico {
+float: left;
+width: 245px;
+margin: 0 0.7rem 0 0;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+line-height: 1.5rem;
+}
+.descrizione-attivita-ospedaliera,
+.informazioni-utente {
+line-height: 1.5rem;
+}
+.descrizione-servizio-afferente,
+.informazioni-utente,
+.testo-attivita-ospedaliera {
+white-space: pre-wrap;
+}
+.testo-attivita-ospedaliera {
+text-align: justify;
+}
+.materiale-informativo {
+display: flex;
+flex-flow: row wrap;
+}
+.elemento-materiale-informativo {
+margin: 1rem;
+box-sizing: border-box;
+flex: 1;
+width: 250px;
+}
+.elemento-materiale-informativo > a {
+display: flex;
+align-items: center;
+}
+.elemento-materiale-informativo a > img {
+width: 50px;
+height: 50px;
+margin: 0 1rem;
+}
+.elemento-materiale-informativo a > div {
+width: 180px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: wrap;
+color: #3a506b;
+}
+.elemento-materiale-informativo a:hover > div {
+text-decoration: underline;
+}
+.servizi-afferenti {
+display: flex;
+flex-flow: row wrap;
+}
+.servizio-afferente {
+margin: 1rem 2rem;
+box-sizing: border-box;
+flex: 1;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+.servizio-afferente:hover {
+text-decoration: underline;
+}
+.icona-servizio-afferente {
+margin: 0 1rem;
+height: 50px;
+width: 50px;
+}
+.chiudi-servizio-afferente {
+position: absolute;
+top: 1.5rem;
+right: 1.5rem;
+font-weight: bold;
+background-color: #3a506b;
+color: white;
+border-radius: 50%;
+padding: 8px 13px;
+}
+.chiudi-servizio-afferente:hover {
+cursor: pointer;
+text-decoration: underline;
+}
+.nome-servizio-afferente {
+flex: 1;
+font-size: 16px;
+width: 200px;
+color: #3a506b;
+}
+.elenco-riquadri-ambulatorio {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.ambulatorio-attivita-ospedaliera {
+box-sizing: border-box;
+flex: 1 0 34%;
+border-radius: 5px;
+border: 1px solid #f1f1f1;
+width: calc(50% - 20px);
+margin: 10px;
+}
+.prestazioni-ambulatoriali {
+display: flex;
+flex-flow: row;
+}
+.prestazioni-ambulatoriali > div {
+flex: 1;
+box-sizing: border-box;
+}
+.prestazioni-ambulatoriali li {
+margin: 1rem 0;
+}
+.titolo-prestazioni-ambulatoriali {
+color: #3a506b;
+font-weight: 500;
+font-style: italic;
+font-size: 16px;
+text-align: center;
+margin-bottom: 1rem;
+}
+.informazioni {
+display: flex;
+align-items: center;
+flex-direction: column;
+margin: 2rem 0;
+clear: both;
+}
+.pulsante-informazioni {
+height: 56px;
+flex-wrap: nowrap;
+align-items: center;
+border-radius: 5px;
+background-color: #3a506b;
+display: inline-flex;
+margin: 0.5rem 1rem;
+justify-content: space-evenly;
+min-width: 250px;
+}
+.pulsante-informazioni:hover {
+text-decoration: none;
+box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.3),
+0 6px 0 -3px rgba(0, 0, 0, 0.15), inset 0 1000px 0 rgba(255, 255, 255, 0.2) !important;
+}
+.pulsante-informazioni img {
+width: 32px;
+height: 32px;
+margin: 0 1rem;
+}
+.pulsante-informazioni div {
+font-weight: bold;
+font-size: 20px;
+color: white;
+margin: 0 1rem 0 0;
+}
+.pulsante-chiama {
+border-radius: 5px;
+background-color: white;
+display: flex;
+border: 1px solid #3a506b;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+height: 56px;
+min-width: 250px;
+margin: 0.5rem 1rem;
+}
+.etichetta-chiama {
+font-size: 12px;
+color: #3a506b;
+}
+.numero-telefono {
+color: #3a506b;
+font-size: 25px;
+font-weight: bold;
+line-height: 30px;
+}
+.informazioni-prenotazioni {
+text-align: center;
+display: block;
+color: #797979;
+font-size: 11px;
+margin-bottom: 8px;
+line-height: 14px;
+}
+.sportello-prenotazioni {
+border-radius: 5px;
+background-color: white;
+display: flex;
+border: 1px solid #3a506b;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 56px;
+min-width: 250px;
+margin: 0.5rem 1rem;
+background-color: #f1f1f1;
+z-index: 2;
+}
+.etichetta-cup {
+font-size: 30px;
+}
+.etichetta-sportello {
+font-size: 14px;
+font-weight: bold;
+color: #3a506b;
+text-align: right;
+border-right: 1px solid #3a506b;
+padding-right: 0.5rem;
+box-sizing: border-box;
+}
+.informazioni-sportello {
+padding-left: 0.5rem;
+box-sizing: border-box;
+color: #3a506b;
+font-size: 14px;
+display: flex;
+flex-direction: column;
+}
+.referti-online {
+background: url(//www.provinciaromanafbf.it/wp-content/themes/fbf-theme/img/onda-bottom.svg) no-repeat bottom/cover;
+width: 100%;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+position: absolute;
+bottom: 0px;
+}
+.referti-online a {
+margin-top: 25px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+display: flex;
+align-items: center;
+}
+.referti-online a > img {
+height: 60px;
+width: 60px;
+margin: 0 1rem;
+}
+.referti-online a > div {
+margin: 0 1rem;
+}
+@media only screen and (max-width: 767px) {
+.elenco-reparti,
+.elenco-ambulatori { margin: 3rem 0rem;
+}
+.servizio-afferente {
+margin: 1rem 0.5rem;
+}
+.nome-servizio-afferente {
+width: 150px;
+}
+.prestazioni-ambulatoriali {
+flex-flow: column;
+}
+.prestazioni-ambulatoriali > div:nth-child(2) {
+border-left: none;
+}
+.ambulatorio-attivita-ospedaliera {
+width: calc(100% - 20px);
+}
+}
+@media only screen and (max-width: 1259px) and (min-width: 980px) {
+.pulsante-informazioni img {
+width: 24px;
+height: 24px;
+margin: 0 0.5rem;
+}
+.pulsante-informazioni div {
+font-weight: bold;
+font-size: 15px;
+color: white;
+margin: 0 0.5rem 0 0;
+}
+.pulsante-informazioni,
+.pulsante-chiama,
+.sportello-prenotazioni {
+height: 42px;
+min-width: 180px;
+margin: 0.5rem 1rem;
+}
+.etichetta-chiama {
+font-size: 10px;
+}
+.numero-telefono {
+font-size: 17px;
+}
+.etichetta-sportello {
+font-size: 10px;
+}
+.etichetta-cup {
+font-size: 16px;
+}
+.informazioni-sportello {
+font-size: 12px;
+}
+}
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+.pulsante-informazioni,
+.pulsante-chiama,
+.sportello-prenotazioni {
+height: 42px;
+min-width: 180px;
+margin: 0.3rem 1rem;
+}
+.pulsante-informazioni img {
+width: 24px;
+height: 24px;
+margin: 0 1rem;
+}
+.pulsante-informazioni div {
+font-weight: bold;
+font-size: 13px;
+color: white;
+margin: 0 0.5rem 0 0;
+}
+.etichetta-chiama {
+font-size: 10px;
+}
+.numero-telefono {
+font-size: 17px;
+}
+.etichetta-sportello {
+font-size: 10px;
+}
+.etichetta-cup {
+font-size: 16px;
+}
+.informazioni-sportello {
+font-size: 10px;
+}
+.ambulatorio-attivita-ospedaliera {
+width: calc(100% - 20px);
+}
+} .nome-reparto {
+font-size: 1.2rem;
+margin: 1.5rem 1.5rem 1rem 1.5rem;
+font-weight: 600;
+color: #3a506b;
+}
+.nome-uo-reparto {
+font-size: 1rem;
+margin: 1.5rem 1.5rem 1rem 1.5rem;
+font-weight: 600;
+}
+.riquadro-reparto {
+margin: 2rem 1rem;
+}
+.orari-di-visita {
+margin-top: 0.5rem;
+float: left;
+}
+.giorni-visita {
+width: 147px;
+color: #3a506b;
+font-weight: 600;
+float: left;
+}
+.elenco-orari-di-visita {
+float: left;
+}
+.singolo-orario {
+line-height: 20px;
+}
+.foto-reparto {
+width: 100%;
+} .dettaglio-servizio-afferente {
+margin: 1rem 0;
+background-color: #f1f1f1;
+border-radius: 5px;
+display: block;
+width: 100%;
+display: none;
+position: relative;
+}
+.titolo-servizio-afferente {
+padding: 1.5rem 0rem;
+color: #3a506b;
+font-style: italic;
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+}
+.servizio-selezionato div {
+font-weight: bolder;
+} .archivio-elenco-reparti,
+.archivio-elenco-ambulatori {
+display: flex;
+flex-wrap: wrap; }
+.archivio-elenco-reparti > article,
+.archivio-elenco-reparti > a,
+.archivio-elenco-ambulatori > article,
+.archivio-elenco-ambulatori > a {
+width: 45%;
+border-radius: 5px;
+overflow: hidden;
+box-sizing: border-box;
+padding: 1rem;
+margin: 0 auto 1.5rem 1.2rem;
+background-color: #f1f1f1;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.archivio-elenco-reparti > a:hover,
+.archivio-elenco-ambulatori > a:hover {
+text-decoration: none;
+transform: scale(1.05);
+}
+.archivio-elenco-reparti article .elemento-attivita-ospedaliera {
+padding: 1rem !important;
+}
+.nome-ambulatorio {
+font-size: 1.2rem;
+margin: 1.5rem 1.5rem 1rem 1.5rem;
+font-weight: 600;
+color: #3a506b;
+}
+@media only screen and (max-width: 979px) {
+.archivio-elenco-reparti > article,
+.archivio-elenco-reparti > a,
+.archivio-elenco-ambulatori > article,
+.archivio-elenco-ambulatori > a {
+width: 100%;
+margin: 1rem;
+}
+} .elenco-attivita-ospedaliere {
+display: flex;
+flex-wrap: wrap;
+}
+.elenco-attivita-ospedaliere article {
+width: 50%;
+border-radius: 5px;
+overflow: hidden;
+box-sizing: border-box;
+margin: 0.5rem 0;
+}
+.elenco-attivita-ospedaliere a {
+padding: 1rem 1.2rem;
+display: flex;
+align-items: center;
+font-size: 18px;
+}
+.elenco-attivita-ospedaliere a:hover {
+text-decoration-color: #3a506b;
+text-decoration-line: underline;
+}
+.elenco-attivita-ospedaliere .img {
+height: 50px;
+width: 50px;
+fill: #3a506b;
+}
+a .titolo-attivita-ospedaliera {
+flex: 1;
+color: #3a506b;
+font-weight: 600;
+}
+.tipo-attivita-ospedaliera {
+color: #797979;
+font-weight: 500;
+font-size: 1rem;
+}
+@media only screen and (max-width: 767px) {
+.elenco-attivita-ospedaliere article {
+width: 100%;
+}
+} .elenco-articoli-in-evidenza {
+display: flex;
+flex-flow: row nowrap;
+background: none;
+justify-content: space-between;
+position: relative;
+}
+.elenco-articoli-in-evidenza::before {
+content: "Notizie ed Eventi dai Fatebenefratelli";
+position: absolute;
+top: 35px;
+right: 0px;
+z-index: 100;
+color: #fff;
+font-weight: 600;
+letter-spacing: 3px;
+font-size: 90%;
+padding: 0.65rem;
+border-radius: 5px 0 0 5px;
+}
+.post-attivita-ospedaliera .elenco-articoli-in-evidenza {
+border-radius: 5px;
+border: 1px solid #f1f1f1;
+}
+.articolo-in-evidenza {
+flex: 1;
+border-radius: 5px;
+background-color: white;
+overflow: hidden;
+display: flex;
+flex-flow: column;
+justify-content: flex-start;
+align-items: center;
+padding: 1.5rem;
+}
+.elenco-articoli-in-evidenza > * {
+margin: 0 6px;
+}
+.elenco-articoli-in-evidenza > :first-child {
+margin-left: 0;
+}
+.elenco-articoli-in-evidenza > :last-child {
+margin-right: 0;
+}
+.link-immagine-in-evidenza {
+width: 100%;
+transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.link-immagine-in-evidenza:hover {
+opacity: 0.6;
+}
+.immagine-articolo-in-evidenza {
+width: 100%;
+border-radius: 5px;
+background-size: cover !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+height: 350px;
+}
+.articolo-in-evidenza-container {
+width: 100%;
+padding: 1rem 0 0 0;
+box-sizing: border-box;
+background-color: white;
+}
+@media only screen and (max-width: 1259px) and (min-width: 980px) {
+.articolo-in-evidenza .post-meta {
+font-size: 0.6rem;
+}
+.titolo-articolo-in-evidenza h3 {
+font-size: 0.9rem !important;
+line-height: 1rem !important;
+}
+}
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+.titolo-articolo-in-evidenza h3 {
+font-size: 0.8rem !important;
+line-height: 1rem !important;
+}
+.articolo-in-evidenza {
+margin: 0 3px;
+}
+}
+@media only screen and (max-width: 767px) {
+.elenco-articoli-in-evidenza {
+display: flex;
+flex-flow: column;
+}
+.elenco-articoli-in-evidenza > * {
+margin: 6px 0;
+}
+}
+.titolo-articolo-in-evidenza h3 { line-height: 25px;
+font-size: 1.1rem;
+font-weight: bolder;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+overflow: hidden;
+text-overflow: ellipsis;
+margin-bottom: 0px !important;
+}
+.articolo-in-evidenza .post-meta {
+display: inline-block;
+margin-right: 12px;
+margin-bottom: 0.5rem;
+font-size: 0.7rem;
+font-style: italic;
+color: #3a506b;
+}
+.articolo-in-evidenza .post-pic {
+padding: 0 0 1rem 1rem;
+box-sizing: border-box;
+float: right;
+} .list-post-small {
+min-height: 20px;
+border-radius: 5px;
+margin: 2rem 0 1rem 0;
+}
+.post-small {
+padding: 0.6rem 0;
+}
+.post-small .post-title {
+font-size: 0.7rem;
+}
+.list-post-small .post-date {
+margin-bottom: 0 !important;
+}
+a.button.pulsante-notizie {
+margin-top: 2rem !important;
+}
+.immagine-primo-piano {
+margin: 2rem 0 1rem 0;
+width: 100%;
+height: 17vh;
+border-radius: 5px;
+background-size: cover !important;
+position: relative;
+}
+.immagine-primo-piano:before {
+content: "In Primo Piano";
+position: absolute;
+top: 0px;
+right: 0px;
+z-index: 100;
+color: #fff;
+font-weight: 600;
+letter-spacing: 3px;
+font-size: 90%;
+padding: 3%;
+border-radius: 0 5px 0 5px;
+}
+.riassunto-primo-piano {
+color: #3a506b;
+max-height: 105px;
+font-weight: 400;
+line-height: 21px;
+font-size: 14px;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 5;
+margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1259px) and (min-width: 980px) {
+.riassunto-primo-piano {
+height: 75px;
+line-height: 15px;
+font-size: 10px;
+}
+.post-small .post-title {
+font-size: 0.6rem;
+}
+.list-post-small .post-date {
+font-size: 0.5rem;
+}
+}
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+.riassunto-primo-piano {
+height: 75px;
+line-height: 15px;
+font-size: 10px;
+}
+.post-small .post-title {
+font-size: 0.5rem;
+}
+.list-post-small .post-date {
+font-size: 0.5rem;
+}
+}
+.type-page a,
+.type-post a {
+font-weight: 800 !important;
+}
+.type-page,
+.type-post {
+padding: 0.5rem 2vw;
+}
+.post-date {
+border-radius: 5px;
+font-style: normal !important;
+}
+.post-categories,
+.post-uo {
+display: inline-block;
+margin-right: 12px;
+margin-bottom: 0px;
+font-size: 11px;
+font-style: initial; display: inline-flex;
+flex-wrap: wrap;
+line-height: 16px;
+align-items: center;
+}
+.riga-articolo-in-evidenza .post-meta {
+display: flex;
+align-items: center;
+}
+.post-categories a,
+.post-uo a {
+font-weight: bold;
+background-color: #3a506b;
+color: white !important;
+border-radius: 5px;
+padding: 0.2rem 0.5rem;
+margin: 2px 4px;
+font-size: 11px;
+}
+.post-categories a:hover,
+.post-categories a:active,
+.post-uo a:hover,
+.post-uo a:active {
+color: white !important;
+text-decoration: none;
+}
+.post-uo .label {
+font-weight: bold;
+}
+.navigation-prev a,
+.navigation-next a {
+border-radius: 5px;
+}
+.navigation-next a:after {
+border-radius: 0 5px 5px 0;
+}
+.navigation-prev a:before {
+border-radius: 5px 0 0 5px;
+}
+.bg-color-sidebar {
+box-shadow: none;
+}
+.sidebar .widget-header {
+background-color: #6787af !important;
+}
+.sidebar .menu .current-menu-item > a,
+.sidebar .menu .current-menu-item > a:hover {
+color: #3a506b;
+}
+footer .menu .current-menu-item > a,
+footer .menu .current-menu-item > a:hover {
+color: #bfeafb;
+}
+footer .widgets-area ul li {
+margin-bottom: 1rem;
+} .container-video-youtube {
+position: relative;
+overflow: hidden;
+width: 100%;
+padding-top: 56.25%; }
+.video-youtube {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+}
+#responsive-menu-button {
+border-radius: 5px;
+}

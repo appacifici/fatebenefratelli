@@ -1,0 +1,21 @@
+parameters:
+	level: 8
+	paths:
+		- lib
+		- templates
+		- post-password-token.php
+	excludePaths:
+		- css
+		- img
+		- js
+		- meta-box
+		- vendor
+		- test
+	bootstrapFiles:
+		- test/constants.php
+	scanDirectories:
+		- ../../WordPress
+	dynamicConstantNames:
+		- COOKIEHASH
+includes:
+	- phpstan-baseline.neon

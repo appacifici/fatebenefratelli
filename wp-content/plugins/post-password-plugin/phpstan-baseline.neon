@@ -1,0 +1,102 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function __ invoked with 2 parameters, 0 required\\.$#"
+			count: 4
+			path: lib/PPTAdmin.php
+
+		-
+			message: "#^Function add_action invoked with 2 parameters, 0 required\\.$#"
+			count: 7
+			path: lib/PPTAdmin.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: lib/PPTAdmin.php
+
+		-
+			message: "#^Parameter \\#1 \\$callback of function call_user_func expects callable\\(\\)\\: mixed, 'is_gutenberg_page' given\\.$#"
+			count: 1
+			path: lib/PPTAdmin.php
+
+		-
+			message: "#^Variable \\$salt might not be defined\\.$#"
+			count: 1
+			path: lib/PPTAdmin.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$post_password\\.$#"
+			count: 1
+			path: lib/PPTClient.php
+
+		-
+			message: "#^Function add_action invoked with 2 parameters, 0 required\\.$#"
+			count: 3
+			path: lib/PPTClient.php
+
+		-
+			message: "#^Function add_filter invoked with 2 parameters, 0 required\\.$#"
+			count: 6
+			path: lib/PPTClient.php
+
+		-
+			message: "#^Function apply_filters invoked with 2 parameters, 0 required\\.$#"
+			count: 1
+			path: lib/PPTClient.php
+
+		-
+			message: "#^Method PPT\\\\PPTClient\\:\\:client_init\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: lib/PPTClient.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$ID\\.$#"
+			count: 3
+			path: lib/PPTCore.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$post_name\\.$#"
+			count: 1
+			path: lib/PPTCore.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$post_password\\.$#"
+			count: 2
+			path: lib/PPTCore.php
+
+		-
+			message: "#^Function admin_url invoked with 2 parameters, 0 required\\.$#"
+			count: 1
+			path: lib/PPTWordPressFunctions.php
+
+		-
+			message: "#^Function get_option invoked with 2 parameters, 0 required\\.$#"
+			count: 1
+			path: lib/PPTWordPressFunctions.php
+
+		-
+			message: "#^Function add_action invoked with 2 parameters, 0 required\\.$#"
+			count: 2
+			path: post-password-token.php
+
+		-
+			message: "#^Function __ invoked with 2 parameters, 0 required\\.$#"
+			count: 1
+			path: templates/meta-box.php
+
+		-
+			message: "#^Function get_option invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: templates/meta-box.php
+
+		-
+			message: "#^Variable \\$this might not be defined\\.$#"
+			count: 1
+			path: templates/meta-box.php
+
+		-
+			message: "#^Variable \\$this might not be defined\\.$#"
+			count: 1
+			path: templates/settings.php
+

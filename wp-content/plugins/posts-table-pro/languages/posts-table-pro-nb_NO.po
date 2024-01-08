@@ -1,0 +1,676 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts Data Table\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-31 13:35+0100\n"
+"PO-Revision-Date: 2018-08-31 13:35+0100\n"
+"Last-Translator: Andrew Keith <andy@barn2.co.uk>\n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: posts-data-table.php\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: nb_NO\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-posts-table-admin-general.php:26
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: includes/admin/class-posts-table-admin-general.php:34
+msgid "View Posts Table Pro documentation"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-general.php:34
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:31
+#: includes/admin/class-posts-table-admin-settings-page.php:38
+msgid "Posts Table Pro Settings"
+msgstr "Posts Table Pro innstillinger"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:31
+msgid "Posts Table Pro"
+msgstr "Posts Table Pro"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:48
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:78
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:89
+msgid "Posts selection"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:92
+msgid "Post type"
+msgstr "Innleggstype"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:94
+msgid ""
+"The default post type for your tables. This option can also set via the "
+"shortcode."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:102
+msgid "Table content"
+msgstr "Tabellinnhold"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:105
+msgid "Columns"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:107
+msgid "Customize the columns used in your table."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:112
+msgid "Image size"
+msgstr "Bildestørrelse"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:114
+msgid "W x H in pixels. Sets the image size when using the 'image' column."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:119
+msgid "Image lightbox"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:121
+msgid "Display featured images in a lightbox when opened"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:125
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:128
+msgid "Display shortcodes, HTML and other formatting inside the table content"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:133
+msgid "Content length"
+msgstr "Innholdslengde"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:136
+#: includes/admin/class-posts-table-admin-settings-page.php:148
+msgid "words"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:137
+msgid "Enter -1 to show the full post content."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:145
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:149
+msgid "Enter -1 to show the full excerpt."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:157
+msgid "Links"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:159
+msgid "Include links to the relevant post, category, tag, or term."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:166
+msgid "Table loading"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:168
+msgid "Lazy load"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:171
+msgid "Load the posts one page at a time"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:173
+#, php-format
+msgid ""
+"Enable this if you have many posts or experience slow page load times. "
+"%sWarning:%s Lazy load limits the searching and sorting features in the "
+"table. Only use it if you definitely need it."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:183
+msgid "Post limit"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:186
+msgid "The maximum (total) number of posts to display in one table."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:194
+msgid "Posts per page"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:197
+msgid ""
+"The number of posts per page of results. Enter -1 to display all posts on "
+"one page."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:204
+msgid "Caching"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:207
+msgid "Cache table contents to improve load time"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:215
+msgid "Cache expires after"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:218
+msgid "hours"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:219
+msgid "Your table data will be refreshed after this length of time."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:231
+msgid "Sorting"
+msgstr "Sortering"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:233
+msgid "Sort by"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:237
+#: includes/class-posts-table-columns.php:166
+msgid "Title"
+msgstr "Tittel"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:238
+#: includes/class-posts-table-columns.php:165
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:239
+msgid "Date published"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:240
+msgid "Date modified"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:241
+msgid "Page order (menu order)"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:242
+msgid "Post 'slug'"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:243
+#: includes/class-posts-table-columns.php:170
+msgid "Author"
+msgstr "Forfatter"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:244
+msgid "Comment count"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:245
+msgid "Random"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:246
+#: includes/admin/class-posts-table-admin-settings-page.php:286
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:248
+msgid "The initial sort order applied to the table."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:257
+msgid "Sort column"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:261
+msgid ""
+"Enter any column in your table. Will only work when lazy load is disabled."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:264
+msgid "Sort direction"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:268
+msgid "Automatic"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:269
+msgid "Ascending (A to Z, 1 to 99)"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:270
+msgid "Descending (Z to A, 99 to 1)"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:278
+msgid "Table controls"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:280
+msgid "Search filters"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:284
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:285
+msgid "Show based on columns in table"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:288
+msgid ""
+"Dropdown lists to filter the table by category, tag, attribute, or custom "
+"taxonomy."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:297
+msgid "Custom filters"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:300
+msgid "Enter the filters as a comma-separated list."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:304
+msgid "Page length"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:308
+#: includes/admin/class-posts-table-admin-settings-page.php:321
+#: includes/admin/class-posts-table-admin-settings-page.php:333
+#: includes/admin/class-posts-table-admin-settings-page.php:346
+msgid "Above table"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:309
+#: includes/admin/class-posts-table-admin-settings-page.php:322
+#: includes/admin/class-posts-table-admin-settings-page.php:334
+#: includes/admin/class-posts-table-admin-settings-page.php:347
+msgid "Below table"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:310
+#: includes/admin/class-posts-table-admin-settings-page.php:323
+#: includes/admin/class-posts-table-admin-settings-page.php:335
+#: includes/admin/class-posts-table-admin-settings-page.php:348
+msgid "Above and below table"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:311
+#: includes/admin/class-posts-table-admin-settings-page.php:324
+#: includes/admin/class-posts-table-admin-settings-page.php:336
+#: includes/admin/class-posts-table-admin-settings-page.php:349
+msgid "Hidden"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:313
+msgid "The position of the 'Show [x] entries' dropdown list."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:317
+msgid "Search box"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:329
+msgid "Totals"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:338
+msgid "The position of the post totals, e.g. 'Showing 1 to 5 of 10 entries'."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:342
+msgid "Pagination buttons"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:351
+msgid "The position of the paging buttons which scroll between results."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:355
+msgid "Pagination type"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:359
+msgid "Numbers only"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:360
+msgid "Prev|Next"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:361
+msgid "Prev|Next + Numbers"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:362
+msgid "Prev|Next|First|Last"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:363
+msgid "Prev|Next|First|Last + Numbers"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:368
+msgid "Reset button"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:371
+msgid "Show the reset button above the table"
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:394
+#, php-format
+msgid ""
+"By default, your tables display all published posts for the selected post "
+"type. To restrict the posts by category, tag, taxonomy, date, custom field, "
+"etc. you need to add the relevant option to your shortcode. Please see the "
+"%sKnowledge Base%s for details."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:405
+#, php-format
+msgid ""
+"The following options set defaults for the [posts_table] shortcode. You can "
+"override these by setting the relevant option in the shortcode. See the "
+"%sfull list of shortcode options%s for details."
+msgstr ""
+
+#: includes/admin/class-posts-table-admin-settings-page.php:418
+msgid "Getting Started"
+msgstr "Kom i gang"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:420
+msgid "Knowledge Base"
+msgstr "Kunnskapsbase"
+
+#: includes/admin/class-posts-table-admin-settings-page.php:473
+msgid "Read more"
+msgstr "Les mer"
+
+#: includes/class-posts-table-columns.php:167
+msgid "Content"
+msgstr "Innhold"
+
+#: includes/class-posts-table-columns.php:168
+msgid "Summary"
+msgstr "Sammendrag"
+
+#: includes/class-posts-table-columns.php:169
+msgid "Date"
+msgstr "Dato"
+
+#: includes/class-posts-table-columns.php:171
+msgid "Categories"
+msgstr "Kategorier"
+
+#: includes/class-posts-table-columns.php:172
+msgid "Tags"
+msgstr "Stikkord"
+
+#: includes/class-posts-table-columns.php:173
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-posts-table-columns.php:174
+msgid "Image"
+msgstr "Bilde"
+
+#: includes/class-posts-table-config-builder.php:68
+msgctxt "show all posts option"
+msgid "All"
+msgstr "Alle"
+
+#: includes/class-posts-table-frontend-scripts.php:73
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Viser _START_ til _END_ av _TOTAL_ linjer"
+
+#: includes/class-posts-table-frontend-scripts.php:74
+msgid "Showing 0 entries"
+msgstr "Viser 0 linjer"
+
+#: includes/class-posts-table-frontend-scripts.php:75
+msgid "(_MAX_ entries in total)"
+msgstr "(filtrert fra _MAX_ totalt antall linjer)"
+
+#: includes/class-posts-table-frontend-scripts.php:76
+msgid "Show _MENU_ entries"
+msgstr "Vis _MENU_ linjer"
+
+#: includes/class-posts-table-frontend-scripts.php:77
+msgid "No data available in table."
+msgstr "IIngen data tilgjengelig i tabellen."
+
+#: includes/class-posts-table-frontend-scripts.php:78
+msgid "No matching records found."
+msgstr "Ingen linjer matcher søket."
+
+#: includes/class-posts-table-frontend-scripts.php:79
+msgid "Search:"
+msgstr "Søk:"
+
+#: includes/class-posts-table-frontend-scripts.php:81
+msgid "First"
+msgstr "Første"
+
+#: includes/class-posts-table-frontend-scripts.php:82
+msgid "Last"
+msgstr "Siste"
+
+#: includes/class-posts-table-frontend-scripts.php:83
+msgid "Next"
+msgstr "Neste"
+
+#: includes/class-posts-table-frontend-scripts.php:84
+msgid "Previous"
+msgstr "Forrige"
+
+#: includes/class-posts-table-frontend-scripts.php:86
+msgctxt "thousands separator"
+msgid ","
+msgstr "&#8201;"
+
+#: includes/class-posts-table-frontend-scripts.php:87
+msgctxt "decimal mark"
+msgid "."
+msgstr ","
+
+#: includes/class-posts-table-frontend-scripts.php:90
+msgid ": activate to sort column ascending"
+msgstr "“: aktiver for å sortere kolonnen stigende"
+
+#: includes/class-posts-table-frontend-scripts.php:92
+msgid ": activate to sort column descending"
+msgstr ": aktiver for å sortere kolonnen synkende"
+
+#: includes/class-posts-table-frontend-scripts.php:94
+msgid "Filter:"
+msgstr "Filter:"
+
+#: includes/class-posts-table-frontend-scripts.php:95
+msgid "Reset"
+msgstr "Tilbakestill"
+
+#: includes/data/class-posts-table-data-categories.php:26
+msgid "Uncategorized"
+msgstr "Ukategorisert"
+
+#: includes/data/class-posts-table-data-custom-field.php:143
+msgid "True"
+msgstr "Sann"
+
+#: includes/data/class-posts-table-data-custom-field.php:143
+msgid "False"
+msgstr "Usann"
+
+#: includes/license/EDD_SL_Plugin_Updater.php:210
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/license/EDD_SL_Plugin_Updater.php:218
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/license/EDD_SL_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/license/EDD_SL_Plugin_Updater.php:408
+msgid "Error"
+msgstr "Feil"
+
+#: includes/license/class-b2-plugin-license.php:146
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:150
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:154
+msgid "Your license key is invalid."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:158
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:161
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:164
+#: includes/license/class-b2-plugin-license.php:245
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error activating your license, please try again."
+msgstr "Det oppstod en feil med å lagre lisensnøkkelen. Vennligst prøv igjen."
+
+#: includes/license/class-b2-plugin-license.php:233
+msgid "Please enter your license key."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:234
+msgid "Deactivate"
+msgstr "Deaktiver"
+
+#: includes/license/class-b2-plugin-license.php:237
+msgid "License key successfully activated."
+msgstr "Lisensnøkkel aktivert."
+
+#: includes/license/class-b2-plugin-license.php:239
+#, fuzzy
+#| msgid "License key successfully deactivated."
+msgid "License key successfully deactivated. Click Save to reactivate."
+msgstr "Deaktivering av lisensnøkkel vellykket."
+
+#: includes/license/class-b2-plugin-license.php:241
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error deactivating your license key, please try again."
+msgstr "Det oppstod en feil med å lagre lisensnøkkelen. Vennligst prøv igjen."
+
+#: includes/license/class-b2-plugin-license.php:310
+msgid "An error has occurred, please try again."
+msgstr ""
+
+#: templates/photoswipe.php:46
+msgid "Close (Esc)"
+msgstr ""
+
+#: templates/photoswipe.php:48
+msgid "Share"
+msgstr ""
+
+#: templates/photoswipe.php:50
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: templates/photoswipe.php:52
+msgid "Zoom in/out"
+msgstr ""
+
+#: templates/photoswipe.php:69
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: templates/photoswipe.php:71
+msgid "Next (arrow right)"
+msgstr ""
+
+#~ msgctxt "license key error message"
+#~ msgid "Error: %s"
+#~ msgstr "Feil: %s"
+
+#~ msgid "https://barn2.co.uk/wordpress-plugins/posts-table-pro/"
+#~ msgstr "https://barn2.co.uk/wordpress-plugins/posts-table-pro/"
+
+#~ msgid ""
+#~ "Display your site's posts, pages, and custom post types in a sortable, "
+#~ "searchable and filterable data table."
+#~ msgstr ""
+#~ "Gir en kortkode for å vise en liste med nettsidens innhold (innlegg, "
+#~ "sider, egendefinerte innleggstyper etc.) i en søkbar og sorterbar tabell."
+
+#~ msgid "Barn2 Media"
+#~ msgstr "Barn2 Media"
+
+#~ msgid "https://barn2.co.uk"
+#~ msgstr "https://barn2.co.uk"
+
+#, fuzzy
+#~| msgid "Posts Table Pro"
+#~ msgid "Get help with Posts Table Pro"
+#~ msgstr "Posts Table Pro"
+
+#~ msgid "The license key is contained in your order confirmation email."
+#~ msgstr "Lisensnøkkelen finnes i eposten med bestillingsbekreftelsen"
+
+#~ msgid "Your license key is invalid, please try again."
+#~ msgstr "Din lisensnøkkel er ugyldig. Vennligst prøv igjen."
+
+#~ msgid "Posts Table with Search & Sort"
+#~ msgstr "Innleggstabell med søk og sortering"
+
+#~ msgid ""
+#~ "This plugin provides a shortcode to show a list of your site's posts in a "
+#~ "searchable and sortable table."
+#~ msgstr ""
+#~ "Dette tillegget lar deg bruke en kortkode for å vise en liste av innlegg "
+#~ "i en søkbar og sorterbar tabell.\n"
